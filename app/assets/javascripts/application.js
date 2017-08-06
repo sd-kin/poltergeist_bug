@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+function heyIBrokeYourTest() {
+  document.querySelectorAll('.stup').forEach(item => console.log(item))
+}
