@@ -1,0 +1,11 @@
+<div id="message">AJAX submitted form</div>
+
+<div class='stub'></div>
+<div class='stub'></div>
+<div class='stub'></div>
+<div class='stub'></div>
+<div class='stub'></div>
+
+<%= form_tag(create_path, remote: true) do -%>
+  <div><%= submit_tag 'Save' %></div>
+<% end -%>
